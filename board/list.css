@@ -1,0 +1,225 @@
+.body, .content-area{
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+    clear: both;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    z-index: 100;
+    width: 100%;
+    background-color: rgba(255,255,255,0.9);
+}
+.headA {
+    display: inline-block;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #b666d1;
+    background-color: var(--main-color);
+    color: #fff;
+    color: var(--text-dright-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+.headB ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.headB a {
+    display: block;
+    padding: 15px;
+    color: inherit;
+    font-size: 12px;
+    text-decoration: none;
+}
+.headB a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+@media (min-width:768px) {
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1000px;
+        max-width:  var(--larrge-width);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .headB ul {
+        display: flex;
+    }
+}
+
+.content-area{
+    margin-top: 100px;
+}
+.group-area{
+    width: 200px;
+    text-align: left;
+    float: left;
+}
+.search{
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 0;
+}
+.search .inp{
+    border-color: #f1d8ff;
+    background-color: #fff;
+    color: #ca6fff;
+    width: 220px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px #ca6fff solid;
+    border-right: 0;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.main-area .btn{
+    width: 100px;
+}
+.main-area .btn a{
+    font-weight: bold;
+    line-height: 18px;
+    border: 1px solid #ca6fff;
+    background: #ca6fff;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+.search .btn-search{
+    width: 52px;
+    height: 33px;
+    margin: 0;
+    border: 0 none;
+    font-size: 15px;
+    color: #fff;
+    background-color: #ca6fff;
+    text-align: center;
+    cursor: pointer;
+    appearance: auto;
+    display: inline-block;
+    font-weight:bold;
+    line-height:18px;
+    vertical-align:top;
+}
+.menu-title{
+    -webkit-text-size-adjust: none;
+    font-weight: 400;
+    word-break: break-all;
+    word-wrap: break-word;
+    position: relative;
+    border-top: 2px solid;
+    border-bottom: 1px solid;
+    text-align: left;
+    padding: 2px 1px 1px;
+}
+.menu-title .gm-tcol-t{
+    display: inline-block;
+    max-width: 150px;
+    padding: 12px 0 10px 11px;
+    font-size: 16px;
+    color: #333;
+    line-height: 16px;
+    vertical-align: top;
+}
+.menu-list{
+    line-height: 24px;
+    padding: 0 10px;
+    margin-top: 6px;
+    font-size: 13px;
+}
+.main-area{
+    width: 860px;
+    float: right;
+}
+ul, li{
+    list-style: none;
+}
+li:first-child{
+    margin-top: 2px;
+}
+li:last-child{
+    padding-bottom: 2px;
+}
+.btn-write a{
+    text-decoration: none;
+    color: #fff;
+    word-break: break-all;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+li a{
+    text-decoration: none;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.menu-list li{
+    font-size: 14px;
+    position: relative;
+}
+ul, h3 {
+    margin: 0;
+    padding: 0;
+}
+.sub_news, .sub_news th, .sub_news td {
+    border: 0;
+}
+.sub_news a{
+    color: #383838;
+    text-decoration: none;
+}
+.sub_news{
+    width: 100%;
+    border-bottom: 1px solid #999;
+    color: #666;
+    font-size: 14px;
+    table-layout: fixed;
+}
+.sub_news caption{
+    display: none;
+}
+.sub_news th{
+    padding: 5px 0 6px;
+    border-top: solid 1px #ca6fff;
+    border-bottom: solid 1px #ca6fff;
+    background-color: #f1d8ff;
+    color: #c665ff;
+    font-weight: bold;
+    line-height: 20px;
+    vertical-align: top;
+    font-size: 16px;
+}
+.sub_news td{
+    padding: 8px 0 9px;
+    border-bottom: solid 1px #d2d2d2;
+    text-align: center;
+    line-height: 18px;
+}
+.sub_news .date{
+    padding: 0;
+    font-family: Tahoma;
+    font-size: 14px;
+    line-height: normal;
+}
+.sub_news .title{
+    text-align: left;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.img_sample{
+    background: url(/snippet/image?idx=59) no-repeat 0 0;
+}
